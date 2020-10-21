@@ -20,7 +20,7 @@ class KeywordQueryEventListener(EventListener):
         sublime_path = os.path.expanduser(extension.preferences['sublime_projects_dir'])
         items = []
         for name in glob.glob(sublime_path + "/*.sublime-project"):
-            project_name = name.split('/').pop().replace('.sublime-project', '').replace('-', ' ').title()
+            project_name = name.split('/').pop().replace('.sublime-project', '').replace('_', ' ').title()
             item = ExtensionResultItem(
                 icon = 'images/icon.png',
                 name = project_name,

@@ -1,7 +1,7 @@
 {
   "required_api_version": "^2.0.0",
   "name": "Sublime Text Project Manager",
-  "description": "Open your Sublime Text projects quickly",
+  "description": "Quickly open a Sublime Text Project.",
   "developer_name": "Mark Molnar",
   "icon": "images/icon.png",
   "options": {
