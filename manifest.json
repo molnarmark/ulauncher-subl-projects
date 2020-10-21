@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Sublime Text Project Manager",
+  "description": "Open your Sublime Text projects quickly",
+  "developer_name": "Mark Molnar",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "subl_kw",
+      "type": "keyword",
+      "name": "Sublime Text Project Manager",
+      "description": "",
+      "default_value": "sublp"
+    },
+    {
+      "id": "sublime_projects_dir",
+      "type": "input",
+      "name": "Sublime Text Projects Path",
+      "description": "Directory of your .sublime-project files",
+      "default_value": "~/sublime-projects"
+    },
+    {
+      "id": "sublime_executable",
+      "type": "input",
+      "name": "Sublime Text Executable Path",
+      "description": "Path to the Sublime Text executable",
+      "default_value": "/opt/sublime_text/sublime_text"
+    }
+  ]
+}
