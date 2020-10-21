@@ -1,7 +1,7 @@
 # 💡 Sublime Text Project Manager for Ulauncher
 
 <p align="center">
-  <img src="https://i.imgur.com/Y6je4lr.png" />
+  <img src="https://raw.githubusercontent.com/molnarmark/ulauncher-subl-projects/master/demo.png?token=ADFGBYPCLSS5LJIPZIK7G4S7SAUVW" />
 </p>
 
 With this Ulauncher extension, you can quickly browse and open your Sublime Text projects.
